@@ -1,17 +1,43 @@
 .confirmation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+
+.card {
+  background: #fff;
+  padding: 40px 60px;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
   text-align: center;
-  margin-top: 40px;
+  max-width: 450px;
 }
 
-.confirmation-container h2 {
-  color: green;
-  margin-bottom: 10px;
+.card h2 {
+  color: #28a745;
+  font-size: 28px;
+  margin-bottom: 15px;
 }
 
-.back {
+.card p {
+  font-size: 17px;
+  margin-bottom: 25px;
+  color: #444;
+}
+
+.back-btn {
   display: inline-block;
-  margin-top: 20px;
-  color: blue;
-  text-decoration: underline;
-  cursor: pointer;
+  padding: 12px 25px;
+  background: #007bff;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: 0.25s ease-in-out;
+}
+
+.back-btn:hover {
+  background: #005fcc;
+  transform: translateY(-2px);
 }

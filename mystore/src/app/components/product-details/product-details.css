@@ -1,13 +1,122 @@
-.details-container {
-  text-align: center;
+.details-card {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 30px;
+  display: flex;
+  gap: 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);
+  align-items: center;
 }
 
-img {
-  margin: 20px 0;
+.image-box img {
+  width: 320px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.info-box {
+  flex: 1;
+  text-align: left;
+}
+
+.info-box h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
 }
 
 .price {
-  font-size: 20px;
-  color: green;
+  font-size: 22px;
+  color: #28a745;
   font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 25px;
+}
+
+/* زرّين جنب بعض */
+.buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* خلي الزرين بطول مناسب */
+.buttons button {
+  min-width: 130px;
+  text-align: center;
+}
+
+/* Primary Button - Add to Cart */
+.primary-btn {
+  padding: 10px 20px;
+  background: #007bff;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  transition: 0.2s ease;
+}
+
+.primary-btn:hover {
+  background: #005fcc;
+  transform: translateY(-2px);
+}
+
+/* Back Button */
+.back-btn {
+  background: #f7f7f7;
+  color: #333;
+  padding: 10px 22px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.25s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.back-btn:hover {
+  background: #eaeaea;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  transform: translateY(-2px);
+}
+
+/* Mobile Responsive */
+@media(max-width: 768px) {
+  .buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .buttons button {
+    width: 100%;
+  }
+}
+
+/* Responsive */
+@media(max-width: 768px) {
+  .details-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info-box {
+    text-align: center;
+  }
+
+  .image-box img {
+    width: 100%;
+    height: auto;
+  }
 }

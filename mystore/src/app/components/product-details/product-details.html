@@ -1,12 +1,26 @@
-<div *ngIf="product" class="details-container">
+<div *ngIf="product" class="details-card">
 
-  <h2>{{ product.name }}</h2>
+  <div class="image-box">
+    <img [src]="product.url" [alt]="product.name">
+  </div>
 
-  <img [src]="product.url" [alt]="product.name" width="300">
+  <div class="info-box">
+    <h2>{{ product.name }}</h2>
 
-  <p class="price">Price: ${{ product.price }}</p>
+    <p class="price">${{ product.price }}</p>
 
-  <p>{{ product.description }}</p>
+    <p class="description">{{ product.description }}</p>
 
-  <a routerLink="/">⬅ Back to Products</a>
+    <div class="buttons">
+  <button class="primary-btn" (click)="addToCart(product)">
+    Add to Cart
+  </button>
+
+  <button class="back-btn" (click)="goBack()">
+    ⬅ Back
+  </button>
+</div>
+
+  </div>
+
 </div>

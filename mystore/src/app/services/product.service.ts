@@ -8,7 +8,7 @@ import { Product } from '../models/product';
 })
 export class ProductService {
 
-  private dataUrl = 'assets/data.json';
+  private dataUrl = '/assets/data.json';
 
   constructor(private http: HttpClient) { }
 

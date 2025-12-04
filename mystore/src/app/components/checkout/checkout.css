@@ -1,23 +1,48 @@
 .checkout-container {
   width: 400px;
-  margin: 20px auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  background: #fafafa;
+  margin: 80px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+label {
+  font-weight: bold;
+  margin-top: 15px;
+  display: block;
 }
 
 input {
   width: 100%;
-  padding: 8px;
-  margin-bottom: 12px;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
 }
 
-button {
-  background: #4caf50;
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.total {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.submit-btn {
+  width: 100%;
+  background: black;
   color: white;
-  border: none;
-  padding: 10px 15px;
+  padding: 12px;
+  margin-top: 20px;
+  border-radius: 8px;
   cursor: pointer;
-  border-radius: 5px;
+}
+
+.submit-btn:disabled {
+  background: #aaa;
+  cursor: not-allowed;
 }

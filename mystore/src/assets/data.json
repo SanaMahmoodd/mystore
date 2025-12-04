@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Book",
+    "price": 9.99,
+    "url": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f",
+    "description": "A great book to improve your knowledge."
+  },
+  {
+    "id": 2,
+    "name": "Headphones",
+    "price": 249.99,
+    "url": "https://images.unsplash.com/photo-1580892295121-47588be5ad7a",
+    "description": "High-quality sound for music lovers."
+  },
+  {
+    "id": 3,
+    "name": "Backpack",
+    "price": 79.99,
+    "url": "https://images.unsplash.com/photo-1526177755907-4d2826f5f8e3",
+    "description": "Stylish backpack for daily use."
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "price": 59.99,
+    "url": "https://images.unsplash.com/photo-1528701800489-20be0ba8f9c3",
+    "description": "Comfortable and modern shoes."
+  },
+  {
+    "id": 5,
+    "name": "Watch",
+    "price": 199.99,
+    "url": "https://images.unsplash.com/photo-1518515097038-ca19a3777cd3",
+    "description": "Elegant wrist watch for everyday wear."
+  },
+  {
+    "id": 6,
+    "name": "Laptop",
+    "price": 1399.99,
+    "url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+    "description": "High-performance laptop for work and gaming."
+  },
+  {
+    "id": 7,
+    "name": "Camera",
+    "price": 499.99,
+    "url": "https://images.unsplash.com/photo-1519183071298-a2962be96c94",
+    "description": "Capture your best moments with clarity."
+  },
+  {
+    "id": 8,
+    "name": "Sunglasses",
+    "price": 29.99,
+    "url": "https://images.unsplash.com/photo-1500048993953-d23a436266cf",
+    "description": "Protect your eyes with style."
+  },
+  {
+    "id": 9,
+    "name": "Perfume",
+    "price": 89.99,
+    "url": "https://images.unsplash.com/photo-1520975918319-9476e02aeb2c",
+    "description": "A refreshing and long-lasting fragrance."
+  }
+]

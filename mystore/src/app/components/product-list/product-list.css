@@ -1,0 +1,27 @@
+.product-list {
+  padding: 20px;
+  text-align: center;
+}
+
+.item {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 15px auto;
+  width: 260px;
+  border-radius: 6px;
+}
+
+.item img {
+  border-radius: 4px;
+}
+
+.price {
+  color: green;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 600;
+}

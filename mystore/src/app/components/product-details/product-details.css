@@ -1,0 +1,13 @@
+.details-container {
+  text-align: center;
+}
+
+img {
+  margin: 20px 0;
+}
+
+.price {
+  font-size: 20px;
+  color: green;
+  font-weight: bold;
+}

@@ -1,0 +1,17 @@
+.confirmation-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.confirmation-container h2 {
+  color: green;
+  margin-bottom: 10px;
+}
+
+.back {
+  display: inline-block;
+  margin-top: 20px;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}

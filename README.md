@@ -38,6 +38,10 @@ navigation, user input handling, and clean component structure.
 ### 1️⃣ Install dependencies
 
 ``` bash
+cd mystore
+```
+
+``` bash
 npm install
 ```
 

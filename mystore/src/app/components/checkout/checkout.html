@@ -8,8 +8,8 @@
     <input
       name="name"
       [(ngModel)]="name"
-      required
-      minlength="3"
+      (ngModelChange)="onNameChange($event)"
+      required minlength="3"
       #nameInput="ngModel"
     />
 

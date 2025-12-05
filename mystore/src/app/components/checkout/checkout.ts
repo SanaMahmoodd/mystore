@@ -32,4 +32,9 @@ export class Checkout {
       this.cartService.clearCart();
     }
   }
+
+  onNameChange(value: string) {
+  console.log("Name changed:", value);
+}
+
 }

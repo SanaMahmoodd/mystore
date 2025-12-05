@@ -1,16 +1,12 @@
 <div class="cart-container">
   <h2>Your Cart</h2>
 
-  <div *ngFor="let item of items; let i = index" class="cart-item">
-    <img [src]="item.url" alt="product">
-
-    <div class="cart-details">
-      <h3>{{ item.name }}</h3>
-      <p>${{ item.price }}</p>
-
-      <button class="remove-btn" (click)="remove(i)">Remove</button>
-    </div>
-  </div>
+<app-cart-item
+    *ngFor="let item of items; let i = index"
+    [item]="item"
+    [index]="i"
+    (removeItem)="remove($event)"
+  ></app-cart-item>
 
   <p class="total">Total: ${{ total }}</p>
 

@@ -38,6 +38,7 @@ export class ProductDetails {
 addToCart(product: Product) {
   this.cartService.addToCart(product);
   this.router.navigate(['/cart']);
+  alert(product.name + " added to cart!");
 }
 
 }
